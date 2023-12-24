@@ -15,6 +15,9 @@ l4=[1,2,(3,4,5),"hello",[1,2,3]]
 #output
 print("Heterogenous list-->{}".format(l4))
 #lists can be accessed with index or loops
+#access with indexing
+print("list[3]==>{}".format(l4[3]))
+##access with loop
 for i in l4:
     print("Type of {}-->{}".format(i,type(i)))
     
