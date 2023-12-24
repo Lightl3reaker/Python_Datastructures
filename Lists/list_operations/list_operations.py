@@ -21,4 +21,15 @@ print(f"Index of 5 in first part of list {i}")
 #searching with parts of list
 i2=l1.index(5,5,7)
 print(f"Index of 5 in second part of list {i2}")
-
+#creating un ordered list
+l3=list([3,6,8,1,3,5,9,1,24,66,88,34])
+l4=l3.copy()
+print("Original list",l3)
+#Sorting list
+l3.sort()
+print(f"Sorted list",l3)
+l3.sort(reverse=True)
+print("Sorted reverse->",l3)
+#sorting the even numbers of l4 first,then odds
+l4.sort(key=lambda x: (x%2,x))
+print(l4)
