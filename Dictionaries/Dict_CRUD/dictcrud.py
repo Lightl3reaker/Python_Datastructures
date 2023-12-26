@@ -29,3 +29,6 @@ print("\nCloned dictionay.")
 clonedict=profile.copy()
 for key,value in clonedict.items():
     print(key,value)
+print(list(profile))
+
+
