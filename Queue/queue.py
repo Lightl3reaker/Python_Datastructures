@@ -1,6 +1,7 @@
 import collections
 from collections import deque
 ##Queue-->first in(append left),first out(pop)
+##or if you use append then use popleft
 list1=[1,2,3]
 list1=deque(list1)
 queue=deque([1,2,3])
